@@ -32,7 +32,7 @@ endif
    
 install: ${PROG} ${MAN} ${DESKTOP} ${ICON}
 	mkdir -p ${DESTDIR}$(INSTBIN)
-	install -s ${PROG} ${DESTDIR}$(INSTBIN)
+	install ${PROG} ${DESTDIR}$(INSTBIN)
 
 	mkdir -p ${DESTDIR}$(INSTMAN)
 	install ${MAN} ${DESTDIR}$(INSTMAN)
