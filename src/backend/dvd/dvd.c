@@ -30,6 +30,7 @@
 
 #include <fileaccess/svfs.h>
 #include <dvdnav/dvdnav.h>
+#include <libavutil/mathematics.h>
 
 static char *make_nice_title(const char *t);
 
