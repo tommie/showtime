@@ -87,7 +87,7 @@ CONFIG_LIST="
 
 die() {
     rm -rf $TMPDIR
-    exit
+    exit 1
 }
 
 die_invalid_opt() {
@@ -370,5 +370,4 @@ EOF
     rm -f ${CONFIG_H} ${CONFIG_MAK}
 
     echo "Final binary is: ${PROG}"
-    die
 }
